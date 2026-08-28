@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from embeddings import embed_text
+from src.embeddings import embed_text
 from qdrant_client import QdrantClient
 
 load_dotenv()

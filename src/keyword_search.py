@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
-from ingest import load_documents
-from chunker import chunk_text
+from src.ingest import load_documents
+from src.chunker import chunk_text
 from rank_bm25 import BM25Okapi
 
 load_dotenv()

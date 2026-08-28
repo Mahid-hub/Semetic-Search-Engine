@@ -1,7 +1,7 @@
 import json
-from keyword_search import keyword_search
-from dense_search import dense_search
-from hybrid_search import hybrid_search
+from src.keyword_search import keyword_search
+from src.dense_search import dense_search
+from src.hybrid_search import hybrid_search
 
 def load_queries():
     with open("queries/test_queries.json", "r", encoding="utf-8") as file:

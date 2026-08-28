@@ -1,5 +1,5 @@
-from keyword_search import keyword_search
-from dense_search import dense_search
+from src.keyword_search import keyword_search
+from src.dense_search import dense_search
 
 
 def hybrid_search(query, limit):
