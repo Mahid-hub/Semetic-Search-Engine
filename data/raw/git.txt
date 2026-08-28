@@ -1,0 +1,34 @@
+Git is a distributed version control system used to track changes in source code.
+
+Repositories:
+A Git repository contains the history of a project and its files.
+
+Commits:
+A commit records changes made to files in a repository.
+
+Branches:
+A branch is an independent line of development. New branches can be created
+to work on features without changing the main branch.
+
+Creating a branch:
+A new branch can be created using the git branch command.
+
+Switching branches:
+The git switch command can be used to switch to another branch.
+
+Merging:
+Git merge combines changes from one branch into another branch.
+
+Pull:
+Git pull downloads changes from a remote repository and integrates them
+into the current branch.
+
+Push:
+Git push uploads local commits to a remote repository.
+
+Clone:
+Git clone creates a local copy of a remote repository.
+
+Merge conflicts:
+A merge conflict occurs when Git cannot automatically combine changes.
+The developer must resolve the conflicting files before completing the merge.

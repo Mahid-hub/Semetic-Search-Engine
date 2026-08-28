@@ -1,0 +1,93 @@
+[
+    {
+        "query": "How do I create a Git branch?",
+        "relevant_chunks": [
+            "git_009",
+            "git_010"
+        ]
+    },
+    {
+        "query": "How do I switch to another Git branch?",
+        "relevant_chunks": [
+            "git_011",
+            "git_012"
+        ]
+    },
+    {
+        "query": "How do I merge changes from one Git branch into another?",
+        "relevant_chunks": [
+            "git_013",
+            "git_014"
+        ]
+    },
+    {
+        "query": "How do I clone a Git repository?",
+        "relevant_chunks": [
+            "git_018"
+        ]
+    },
+    {
+        "query": "What is Git used for?",
+        "relevant_chunks": [
+            "git_001"
+        ]
+    },
+
+    {
+        "query": "What is Python?",
+        "relevant_chunks": [
+            "python_001"
+        ]
+    },
+    {
+        "query": "What are Python variables?",
+        "relevant_chunks": [
+            "python_002"
+        ]
+    },
+    {
+        "query": "How are Python objects created?",
+        "relevant_chunks": [
+            "python_011"
+        ]
+    },
+
+    {
+        "query": "What is JavaScript used for?",
+        "relevant_chunks": [
+            "javascript_001",
+            "javascript_002"
+        ]
+    },
+    {
+        "query": "How does JavaScript make web applications interactive?",
+        "relevant_chunks": [
+            "javascript_002"
+        ]
+    },
+    {
+        "query": "What is a JavaScript variable?",
+        "relevant_chunks": [
+            "javascript_002"
+        ]
+    },
+
+    {
+        "query": "What is Linux?",
+        "relevant_chunks": [
+            "linux_001"
+        ]
+    },
+    {
+        "query": "Where is Linux commonly used?",
+        "relevant_chunks": [
+            "linux_002"
+        ]
+    },
+    {
+        "query": "Is Linux used on development machines?",
+        "relevant_chunks": [
+            "linux_002"
+        ]
+    }
+]

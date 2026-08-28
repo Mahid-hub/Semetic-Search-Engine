@@ -1,0 +1,40 @@
+Linux is an open-source operating system commonly used on servers,
+development machines, and embedded systems.
+
+Files and directories:
+Linux organizes data into files and directories. The filesystem starts
+at the root directory represented by /.
+
+pwd:
+The pwd command prints the current working directory.
+
+ls:
+The ls command lists files and directories.
+
+cd:
+The cd command changes the current working directory.
+
+mkdir:
+The mkdir command creates a new directory.
+
+cp:
+The cp command copies files or directories.
+
+mv:
+The mv command moves or renames files.
+
+rm:
+The rm command removes files or directories.
+
+grep:
+The grep command searches text for lines matching a pattern.
+
+Permissions:
+Linux files have permissions that control who can read, write, or execute them.
+
+Processes:
+A process is a running instance of a program. Commands such as ps can be
+used to inspect running processes.
+
+Pipes:
+The pipe character | sends the output of one command to another command.

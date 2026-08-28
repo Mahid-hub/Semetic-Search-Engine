@@ -1,0 +1,34 @@
+JavaScript is a programming language commonly used to create interactive
+web applications.
+
+Variables:
+JavaScript provides let, const, and var for declaring variables.
+
+Functions:
+Functions are reusable blocks of code. They can accept parameters and
+return values.
+
+Arrow functions:
+Arrow functions provide a shorter syntax for writing functions.
+
+Arrays:
+Arrays store ordered collections of values. JavaScript provides methods
+such as map, filter, and reduce for working with arrays.
+
+Objects:
+Objects store data as key-value pairs and can also contain functions.
+
+Promises:
+Promises represent the eventual completion or failure of an asynchronous
+operation.
+
+Async and await:
+The async and await keywords make asynchronous JavaScript code easier to read.
+
+DOM:
+The Document Object Model represents an HTML document as a tree of objects.
+JavaScript can use the DOM to read and modify web page content.
+
+Events:
+JavaScript can respond to user actions such as clicks, keyboard input,
+and form submissions.

@@ -1,0 +1,1334 @@
+[
+    {
+        "chunk_id": "git_001",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "Git is a distributed version control system used t"
+    },
+    {
+        "chunk_id": "git_002",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "sed to track changes in source code.\n\nRepositories"
+    },
+    {
+        "chunk_id": "git_003",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ories:\nA Git repository contains the history of a "
+    },
+    {
+        "chunk_id": "git_004",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "of a project and its files.\n\nCommits:\nA commit rec"
+    },
+    {
+        "chunk_id": "git_005",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "t records changes made to files in a repository.\n\n"
+    },
+    {
+        "chunk_id": "git_006",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ry.\n\nBranches:\nA branch is an independent line of "
+    },
+    {
+        "chunk_id": "git_007",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "e of development. New branches can be created\nto w"
+    },
+    {
+        "chunk_id": "git_008",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "\nto work on features without changing the main bra"
+    },
+    {
+        "chunk_id": "git_009",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "n branch.\n\nCreating a branch:\nA new branch can be "
+    },
+    {
+        "chunk_id": "git_010",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "n be created using the git branch command.\n\nSwitch"
+    },
+    {
+        "chunk_id": "git_011",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "witching branches:\nThe git switch command can be u"
+    },
+    {
+        "chunk_id": "git_012",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " be used to switch to another branch.\n\nMerging:\nGi"
+    },
+    {
+        "chunk_id": "git_013",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "g:\nGit merge combines changes from one branch into"
+    },
+    {
+        "chunk_id": "git_014",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " into another branch.\n\nPull:\nGit pull downloads ch"
+    },
+    {
+        "chunk_id": "git_015",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ds changes from a remote repository and integrates"
+    },
+    {
+        "chunk_id": "git_016",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "rates them\ninto the current branch.\n\nPush:\nGit pus"
+    },
+    {
+        "chunk_id": "git_017",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "t push uploads local commits to a remote repositor"
+    },
+    {
+        "chunk_id": "git_018",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "sitory.\n\nClone:\nGit clone creates a local copy of "
+    },
+    {
+        "chunk_id": "git_019",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "y of a remote repository.\n\nMerge conflicts:\nA merg"
+    },
+    {
+        "chunk_id": "git_020",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " merge conflict occurs when Git cannot automatical"
+    },
+    {
+        "chunk_id": "git_021",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "tically combine changes.\nThe developer must resolv"
+    },
+    {
+        "chunk_id": "git_022",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "esolve the conflicting files before completing the"
+    },
+    {
+        "chunk_id": "git_023",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "g the merge."
+    },
+    {
+        "chunk_id": "git_001",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "Git is a distributed version control system used t"
+    },
+    {
+        "chunk_id": "git_002",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "sed to track changes in source code.\n\nRepositories"
+    },
+    {
+        "chunk_id": "git_003",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ories:\nA Git repository contains the history of a "
+    },
+    {
+        "chunk_id": "git_004",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "of a project and its files.\n\nCommits:\nA commit rec"
+    },
+    {
+        "chunk_id": "git_005",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "t records changes made to files in a repository.\n\n"
+    },
+    {
+        "chunk_id": "git_006",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ry.\n\nBranches:\nA branch is an independent line of "
+    },
+    {
+        "chunk_id": "git_007",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "e of development. New branches can be created\nto w"
+    },
+    {
+        "chunk_id": "git_008",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "\nto work on features without changing the main bra"
+    },
+    {
+        "chunk_id": "git_009",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "n branch.\n\nCreating a branch:\nA new branch can be "
+    },
+    {
+        "chunk_id": "git_010",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "n be created using the git branch command.\n\nSwitch"
+    },
+    {
+        "chunk_id": "git_011",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "witching branches:\nThe git switch command can be u"
+    },
+    {
+        "chunk_id": "git_012",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " be used to switch to another branch.\n\nMerging:\nGi"
+    },
+    {
+        "chunk_id": "git_013",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "g:\nGit merge combines changes from one branch into"
+    },
+    {
+        "chunk_id": "git_014",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " into another branch.\n\nPull:\nGit pull downloads ch"
+    },
+    {
+        "chunk_id": "git_015",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ds changes from a remote repository and integrates"
+    },
+    {
+        "chunk_id": "git_016",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "rates them\ninto the current branch.\n\nPush:\nGit pus"
+    },
+    {
+        "chunk_id": "git_017",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "t push uploads local commits to a remote repositor"
+    },
+    {
+        "chunk_id": "git_018",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "sitory.\n\nClone:\nGit clone creates a local copy of "
+    },
+    {
+        "chunk_id": "git_019",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "y of a remote repository.\n\nMerge conflicts:\nA merg"
+    },
+    {
+        "chunk_id": "git_020",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " merge conflict occurs when Git cannot automatical"
+    },
+    {
+        "chunk_id": "git_021",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "tically combine changes.\nThe developer must resolv"
+    },
+    {
+        "chunk_id": "git_022",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "esolve the conflicting files before completing the"
+    },
+    {
+        "chunk_id": "git_023",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "g the merge."
+    },
+    {
+        "chunk_id": "javascript_001",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "JavaScript is a programming language commonly used"
+    },
+    {
+        "chunk_id": "javascript_002",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": " used to create interactive\nweb applications.\n\nVar"
+    },
+    {
+        "chunk_id": "javascript_003",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "\n\nVariables:\nJavaScript provides let, const, and v"
+    },
+    {
+        "chunk_id": "javascript_004",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "and var for declaring variables.\n\nFunctions:\nFunct"
+    },
+    {
+        "chunk_id": "javascript_005",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "Functions are reusable blocks of code. They can ac"
+    },
+    {
+        "chunk_id": "javascript_006",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "an accept parameters and\nreturn values.\n\nArrow fun"
+    },
+    {
+        "chunk_id": "javascript_007",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "w functions:\nArrow functions provide a shorter syn"
+    },
+    {
+        "chunk_id": "javascript_008",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "r syntax for writing functions.\n\nArrays:\nArrays st"
+    },
+    {
+        "chunk_id": "javascript_009",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "ys store ordered collections of values. JavaScript"
+    },
+    {
+        "chunk_id": "javascript_010",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "cript provides methods\nsuch as map, filter, and re"
+    },
+    {
+        "chunk_id": "javascript_011",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "nd reduce for working with arrays.\n\nObjects:\nObjec"
+    },
+    {
+        "chunk_id": "javascript_012",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "Objects store data as key-value pairs and can also"
+    },
+    {
+        "chunk_id": "javascript_013",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": " also contain functions.\n\nPromises:\nPromises repre"
+    },
+    {
+        "chunk_id": "javascript_014",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "represent the eventual completion or failure of an"
+    },
+    {
+        "chunk_id": "javascript_015",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "of an asynchronous\noperation.\n\nAsync and await:\nTh"
+    },
+    {
+        "chunk_id": "javascript_016",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "t:\nThe async and await keywords make asynchronous "
+    },
+    {
+        "chunk_id": "javascript_017",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "nous JavaScript code easier to read.\n\nDOM:\nThe Doc"
+    },
+    {
+        "chunk_id": "javascript_018",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "e Document Object Model represents an HTML documen"
+    },
+    {
+        "chunk_id": "javascript_019",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "cument as a tree of objects.\nJavaScript can use th"
+    },
+    {
+        "chunk_id": "javascript_020",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "se the DOM to read and modify web page content.\n\nE"
+    },
+    {
+        "chunk_id": "javascript_021",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "t.\n\nEvents:\nJavaScript can respond to user actions"
+    },
+    {
+        "chunk_id": "javascript_022",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "tions such as clicks, keyboard input,\nand form sub"
+    },
+    {
+        "chunk_id": "javascript_023",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "m submissions."
+    },
+    {
+        "chunk_id": "git_001",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "Git is a distributed version control system used t"
+    },
+    {
+        "chunk_id": "git_002",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "sed to track changes in source code.\n\nRepositories"
+    },
+    {
+        "chunk_id": "git_003",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ories:\nA Git repository contains the history of a "
+    },
+    {
+        "chunk_id": "git_004",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "of a project and its files.\n\nCommits:\nA commit rec"
+    },
+    {
+        "chunk_id": "git_005",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "t records changes made to files in a repository.\n\n"
+    },
+    {
+        "chunk_id": "git_006",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ry.\n\nBranches:\nA branch is an independent line of "
+    },
+    {
+        "chunk_id": "git_007",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "e of development. New branches can be created\nto w"
+    },
+    {
+        "chunk_id": "git_008",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "\nto work on features without changing the main bra"
+    },
+    {
+        "chunk_id": "git_009",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "n branch.\n\nCreating a branch:\nA new branch can be "
+    },
+    {
+        "chunk_id": "git_010",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "n be created using the git branch command.\n\nSwitch"
+    },
+    {
+        "chunk_id": "git_011",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "witching branches:\nThe git switch command can be u"
+    },
+    {
+        "chunk_id": "git_012",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " be used to switch to another branch.\n\nMerging:\nGi"
+    },
+    {
+        "chunk_id": "git_013",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "g:\nGit merge combines changes from one branch into"
+    },
+    {
+        "chunk_id": "git_014",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " into another branch.\n\nPull:\nGit pull downloads ch"
+    },
+    {
+        "chunk_id": "git_015",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ds changes from a remote repository and integrates"
+    },
+    {
+        "chunk_id": "git_016",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "rates them\ninto the current branch.\n\nPush:\nGit pus"
+    },
+    {
+        "chunk_id": "git_017",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "t push uploads local commits to a remote repositor"
+    },
+    {
+        "chunk_id": "git_018",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "sitory.\n\nClone:\nGit clone creates a local copy of "
+    },
+    {
+        "chunk_id": "git_019",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "y of a remote repository.\n\nMerge conflicts:\nA merg"
+    },
+    {
+        "chunk_id": "git_020",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " merge conflict occurs when Git cannot automatical"
+    },
+    {
+        "chunk_id": "git_021",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "tically combine changes.\nThe developer must resolv"
+    },
+    {
+        "chunk_id": "git_022",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "esolve the conflicting files before completing the"
+    },
+    {
+        "chunk_id": "git_023",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "g the merge."
+    },
+    {
+        "chunk_id": "javascript_001",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "JavaScript is a programming language commonly used"
+    },
+    {
+        "chunk_id": "javascript_002",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": " used to create interactive\nweb applications.\n\nVar"
+    },
+    {
+        "chunk_id": "javascript_003",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "\n\nVariables:\nJavaScript provides let, const, and v"
+    },
+    {
+        "chunk_id": "javascript_004",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "and var for declaring variables.\n\nFunctions:\nFunct"
+    },
+    {
+        "chunk_id": "javascript_005",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "Functions are reusable blocks of code. They can ac"
+    },
+    {
+        "chunk_id": "javascript_006",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "an accept parameters and\nreturn values.\n\nArrow fun"
+    },
+    {
+        "chunk_id": "javascript_007",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "w functions:\nArrow functions provide a shorter syn"
+    },
+    {
+        "chunk_id": "javascript_008",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "r syntax for writing functions.\n\nArrays:\nArrays st"
+    },
+    {
+        "chunk_id": "javascript_009",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "ys store ordered collections of values. JavaScript"
+    },
+    {
+        "chunk_id": "javascript_010",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "cript provides methods\nsuch as map, filter, and re"
+    },
+    {
+        "chunk_id": "javascript_011",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "nd reduce for working with arrays.\n\nObjects:\nObjec"
+    },
+    {
+        "chunk_id": "javascript_012",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "Objects store data as key-value pairs and can also"
+    },
+    {
+        "chunk_id": "javascript_013",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": " also contain functions.\n\nPromises:\nPromises repre"
+    },
+    {
+        "chunk_id": "javascript_014",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "represent the eventual completion or failure of an"
+    },
+    {
+        "chunk_id": "javascript_015",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "of an asynchronous\noperation.\n\nAsync and await:\nTh"
+    },
+    {
+        "chunk_id": "javascript_016",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "t:\nThe async and await keywords make asynchronous "
+    },
+    {
+        "chunk_id": "javascript_017",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "nous JavaScript code easier to read.\n\nDOM:\nThe Doc"
+    },
+    {
+        "chunk_id": "javascript_018",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "e Document Object Model represents an HTML documen"
+    },
+    {
+        "chunk_id": "javascript_019",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "cument as a tree of objects.\nJavaScript can use th"
+    },
+    {
+        "chunk_id": "javascript_020",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "se the DOM to read and modify web page content.\n\nE"
+    },
+    {
+        "chunk_id": "javascript_021",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "t.\n\nEvents:\nJavaScript can respond to user actions"
+    },
+    {
+        "chunk_id": "javascript_022",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "tions such as clicks, keyboard input,\nand form sub"
+    },
+    {
+        "chunk_id": "javascript_023",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "m submissions."
+    },
+    {
+        "chunk_id": "linux_001",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "Linux is an open-source operating system commonly "
+    },
+    {
+        "chunk_id": "linux_002",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "only used on servers,\ndevelopment machines, and em"
+    },
+    {
+        "chunk_id": "linux_003",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "nd embedded systems.\n\nFiles and directories:\nLinux"
+    },
+    {
+        "chunk_id": "linux_004",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "Linux organizes data into files and directories. T"
+    },
+    {
+        "chunk_id": "linux_005",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "es. The filesystem starts\nat the root directory re"
+    },
+    {
+        "chunk_id": "linux_006",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "ry represented by /.\n\npwd:\nThe pwd command prints "
+    },
+    {
+        "chunk_id": "linux_007",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "ints the current working directory.\n\nls:\nThe ls co"
+    },
+    {
+        "chunk_id": "linux_008",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "ls command lists files and directories.\n\ncd:\nThe c"
+    },
+    {
+        "chunk_id": "linux_009",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "The cd command changes the current working directo"
+    },
+    {
+        "chunk_id": "linux_010",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "rectory.\n\nmkdir:\nThe mkdir command creates a new d"
+    },
+    {
+        "chunk_id": "linux_011",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "new directory.\n\ncp:\nThe cp command copies files or"
+    },
+    {
+        "chunk_id": "linux_012",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "es or directories.\n\nmv:\nThe mv command moves or re"
+    },
+    {
+        "chunk_id": "linux_013",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "or renames files.\n\nrm:\nThe rm command removes file"
+    },
+    {
+        "chunk_id": "linux_014",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": " files or directories.\n\ngrep:\nThe grep command sea"
+    },
+    {
+        "chunk_id": "linux_015",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "d searches text for lines matching a pattern.\n\nPer"
+    },
+    {
+        "chunk_id": "linux_016",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "\n\nPermissions:\nLinux files have permissions that c"
+    },
+    {
+        "chunk_id": "linux_017",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "hat control who can read, write, or execute them.\n"
+    },
+    {
+        "chunk_id": "linux_018",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "hem.\n\nProcesses:\nA process is a running instance o"
+    },
+    {
+        "chunk_id": "linux_019",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "nce of a program. Commands such as ps can be\nused "
+    },
+    {
+        "chunk_id": "linux_020",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "used to inspect running processes.\n\nPipes:\nThe pip"
+    },
+    {
+        "chunk_id": "linux_021",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "e pipe character | sends the output of one command"
+    },
+    {
+        "chunk_id": "linux_022",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "mmand to another command."
+    },
+    {
+        "chunk_id": "git_001",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "Git is a distributed version control system used t"
+    },
+    {
+        "chunk_id": "git_002",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "sed to track changes in source code.\n\nRepositories"
+    },
+    {
+        "chunk_id": "git_003",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ories:\nA Git repository contains the history of a "
+    },
+    {
+        "chunk_id": "git_004",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "of a project and its files.\n\nCommits:\nA commit rec"
+    },
+    {
+        "chunk_id": "git_005",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "t records changes made to files in a repository.\n\n"
+    },
+    {
+        "chunk_id": "git_006",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ry.\n\nBranches:\nA branch is an independent line of "
+    },
+    {
+        "chunk_id": "git_007",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "e of development. New branches can be created\nto w"
+    },
+    {
+        "chunk_id": "git_008",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "\nto work on features without changing the main bra"
+    },
+    {
+        "chunk_id": "git_009",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "n branch.\n\nCreating a branch:\nA new branch can be "
+    },
+    {
+        "chunk_id": "git_010",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "n be created using the git branch command.\n\nSwitch"
+    },
+    {
+        "chunk_id": "git_011",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "witching branches:\nThe git switch command can be u"
+    },
+    {
+        "chunk_id": "git_012",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " be used to switch to another branch.\n\nMerging:\nGi"
+    },
+    {
+        "chunk_id": "git_013",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "g:\nGit merge combines changes from one branch into"
+    },
+    {
+        "chunk_id": "git_014",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " into another branch.\n\nPull:\nGit pull downloads ch"
+    },
+    {
+        "chunk_id": "git_015",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "ds changes from a remote repository and integrates"
+    },
+    {
+        "chunk_id": "git_016",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "rates them\ninto the current branch.\n\nPush:\nGit pus"
+    },
+    {
+        "chunk_id": "git_017",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "t push uploads local commits to a remote repositor"
+    },
+    {
+        "chunk_id": "git_018",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "sitory.\n\nClone:\nGit clone creates a local copy of "
+    },
+    {
+        "chunk_id": "git_019",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "y of a remote repository.\n\nMerge conflicts:\nA merg"
+    },
+    {
+        "chunk_id": "git_020",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": " merge conflict occurs when Git cannot automatical"
+    },
+    {
+        "chunk_id": "git_021",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "tically combine changes.\nThe developer must resolv"
+    },
+    {
+        "chunk_id": "git_022",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "esolve the conflicting files before completing the"
+    },
+    {
+        "chunk_id": "git_023",
+        "document_id": "git",
+        "source": "git.txt",
+        "text": "g the merge."
+    },
+    {
+        "chunk_id": "javascript_001",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "JavaScript is a programming language commonly used"
+    },
+    {
+        "chunk_id": "javascript_002",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": " used to create interactive\nweb applications.\n\nVar"
+    },
+    {
+        "chunk_id": "javascript_003",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "\n\nVariables:\nJavaScript provides let, const, and v"
+    },
+    {
+        "chunk_id": "javascript_004",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "and var for declaring variables.\n\nFunctions:\nFunct"
+    },
+    {
+        "chunk_id": "javascript_005",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "Functions are reusable blocks of code. They can ac"
+    },
+    {
+        "chunk_id": "javascript_006",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "an accept parameters and\nreturn values.\n\nArrow fun"
+    },
+    {
+        "chunk_id": "javascript_007",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "w functions:\nArrow functions provide a shorter syn"
+    },
+    {
+        "chunk_id": "javascript_008",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "r syntax for writing functions.\n\nArrays:\nArrays st"
+    },
+    {
+        "chunk_id": "javascript_009",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "ys store ordered collections of values. JavaScript"
+    },
+    {
+        "chunk_id": "javascript_010",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "cript provides methods\nsuch as map, filter, and re"
+    },
+    {
+        "chunk_id": "javascript_011",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "nd reduce for working with arrays.\n\nObjects:\nObjec"
+    },
+    {
+        "chunk_id": "javascript_012",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "Objects store data as key-value pairs and can also"
+    },
+    {
+        "chunk_id": "javascript_013",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": " also contain functions.\n\nPromises:\nPromises repre"
+    },
+    {
+        "chunk_id": "javascript_014",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "represent the eventual completion or failure of an"
+    },
+    {
+        "chunk_id": "javascript_015",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "of an asynchronous\noperation.\n\nAsync and await:\nTh"
+    },
+    {
+        "chunk_id": "javascript_016",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "t:\nThe async and await keywords make asynchronous "
+    },
+    {
+        "chunk_id": "javascript_017",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "nous JavaScript code easier to read.\n\nDOM:\nThe Doc"
+    },
+    {
+        "chunk_id": "javascript_018",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "e Document Object Model represents an HTML documen"
+    },
+    {
+        "chunk_id": "javascript_019",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "cument as a tree of objects.\nJavaScript can use th"
+    },
+    {
+        "chunk_id": "javascript_020",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "se the DOM to read and modify web page content.\n\nE"
+    },
+    {
+        "chunk_id": "javascript_021",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "t.\n\nEvents:\nJavaScript can respond to user actions"
+    },
+    {
+        "chunk_id": "javascript_022",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "tions such as clicks, keyboard input,\nand form sub"
+    },
+    {
+        "chunk_id": "javascript_023",
+        "document_id": "javascript",
+        "source": "javascript.txt",
+        "text": "m submissions."
+    },
+    {
+        "chunk_id": "linux_001",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "Linux is an open-source operating system commonly "
+    },
+    {
+        "chunk_id": "linux_002",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "only used on servers,\ndevelopment machines, and em"
+    },
+    {
+        "chunk_id": "linux_003",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "nd embedded systems.\n\nFiles and directories:\nLinux"
+    },
+    {
+        "chunk_id": "linux_004",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "Linux organizes data into files and directories. T"
+    },
+    {
+        "chunk_id": "linux_005",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "es. The filesystem starts\nat the root directory re"
+    },
+    {
+        "chunk_id": "linux_006",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "ry represented by /.\n\npwd:\nThe pwd command prints "
+    },
+    {
+        "chunk_id": "linux_007",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "ints the current working directory.\n\nls:\nThe ls co"
+    },
+    {
+        "chunk_id": "linux_008",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "ls command lists files and directories.\n\ncd:\nThe c"
+    },
+    {
+        "chunk_id": "linux_009",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "The cd command changes the current working directo"
+    },
+    {
+        "chunk_id": "linux_010",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "rectory.\n\nmkdir:\nThe mkdir command creates a new d"
+    },
+    {
+        "chunk_id": "linux_011",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "new directory.\n\ncp:\nThe cp command copies files or"
+    },
+    {
+        "chunk_id": "linux_012",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "es or directories.\n\nmv:\nThe mv command moves or re"
+    },
+    {
+        "chunk_id": "linux_013",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "or renames files.\n\nrm:\nThe rm command removes file"
+    },
+    {
+        "chunk_id": "linux_014",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": " files or directories.\n\ngrep:\nThe grep command sea"
+    },
+    {
+        "chunk_id": "linux_015",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "d searches text for lines matching a pattern.\n\nPer"
+    },
+    {
+        "chunk_id": "linux_016",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "\n\nPermissions:\nLinux files have permissions that c"
+    },
+    {
+        "chunk_id": "linux_017",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "hat control who can read, write, or execute them.\n"
+    },
+    {
+        "chunk_id": "linux_018",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "hem.\n\nProcesses:\nA process is a running instance o"
+    },
+    {
+        "chunk_id": "linux_019",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "nce of a program. Commands such as ps can be\nused "
+    },
+    {
+        "chunk_id": "linux_020",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "used to inspect running processes.\n\nPipes:\nThe pip"
+    },
+    {
+        "chunk_id": "linux_021",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "e pipe character | sends the output of one command"
+    },
+    {
+        "chunk_id": "linux_022",
+        "document_id": "linux",
+        "source": "linux.txt",
+        "text": "mmand to another command."
+    },
+    {
+        "chunk_id": "python_001",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "Python is a high-level programming language known "
+    },
+    {
+        "chunk_id": "python_002",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "nown for its readable syntax.\n\nVariables:\nPython v"
+    },
+    {
+        "chunk_id": "python_003",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "hon variables are created by assigning a value to "
+    },
+    {
+        "chunk_id": "python_004",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "e to a name.\n\nFunctions:\nFunctions are defined usi"
+    },
+    {
+        "chunk_id": "python_005",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "d using the def keyword. A function can accept par"
+    },
+    {
+        "chunk_id": "python_006",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "t parameters\nand return a value.\n\nLists:\nLists are"
+    },
+    {
+        "chunk_id": "python_007",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "s are ordered, mutable collections. Items can be a"
+    },
+    {
+        "chunk_id": "python_008",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": " be accessed using indexes.\n\nDictionaries:\nDiction"
+    },
+    {
+        "chunk_id": "python_009",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "ctionaries store key-value pairs. A value can be r"
+    },
+    {
+        "chunk_id": "python_010",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": " be retrieved using its key.\n\nClasses:\nClasses are"
+    },
+    {
+        "chunk_id": "python_011",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "s are used to create objects and define their attr"
+    },
+    {
+        "chunk_id": "python_012",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": " attributes and methods.\n\nExceptions:\nPython uses "
+    },
+    {
+        "chunk_id": "python_013",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "uses try and except blocks to handle exceptions.\n\n"
+    },
+    {
+        "chunk_id": "python_014",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "ns.\n\nModules:\nA Python module is a file containing"
+    },
+    {
+        "chunk_id": "python_015",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "ining Python definitions and statements.\nModules c"
+    },
+    {
+        "chunk_id": "python_016",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "les can be imported into other Python programs."
+    },
+    {
+        "chunk_id": "python_017",
+        "document_id": "python",
+        "source": "python.txt",
+        "text": "s."
+    }
+]
