@@ -188,10 +188,13 @@ Measures how high the first relevant result appears in the ranking.
 
 ## Results
 
-The final values are obtained by running:
+The evaluation results are displayed by selecting option `3` in the main program.
+The program compares:
 
 ```bash
-python src/evaluate.py
+BM25 Keyword Search
+Dense Semantic Search
+Hybrid Search
 ```
 
 ## Project Structure
@@ -209,6 +212,7 @@ Week_2/
 ├── queries/
 │   └── test_queries.json
 │
+├── main.py                 # Application entry point
 ├── src/
 │   ├── ingest.py
 │   ├── chunker.py
@@ -230,7 +234,7 @@ Create and activate the virtual environment:
 
 ```powershell
 python -m venv venv
-.env\Scripts\Activate.ps1
+.\venv\Scripts\Activate.ps1
 ```
 
 Install dependencies:
@@ -239,29 +243,51 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Run dense search:
+Make sure `.env` exists in the project root and contains the Qdrant and
+chunking settings used by the application:
 
-```powershell
-python src/dense_search.py
+```text
+Endpoint=your-qdrant-endpoint
+cluster-api-key=your-qdrant-api-key
+collection-name=your-collection-name
+chunk-size=your-chunk-size
+chunk-overlap=your-chunk-overlap
 ```
 
-Run keyword search:
+Run the complete application from the project root:
 
 ```powershell
-python src/keyword_search.py
+python main.py
 ```
 
-Run hybrid search:
+The main menu provides these options:
 
-```powershell
-python src/hybrid_search.py
-```
+- `1. Index Documents`: loads files from `data/raw/`, creates chunks,
+    generates embeddings, and stores them in Qdrant.
+- `2. Search`: opens a submenu for BM25, dense, hybrid, or comparison search.
+- `3. Evaluate Search Engine`: calculates Recall@5 and MRR using
+    `queries/test_queries.json`.
+- `4. Exit`: closes the program.
 
-Run evaluation:
+Run this command while your current directory is `Week_2`, so the relative
+paths used by the existing search modules resolve correctly.
 
-```powershell
-python src/evaluate.py
-```
+## How the Modules Communicate
+
+`main.py` controls the application flow and imports the public functions from
+the `src` package:
+
+1. `qdrant_db.py` loads documents through `ingest.py`.
+2. `chunker.py` creates chunks and chunk IDs.
+3. `embeddings.py` converts chunks and queries into vectors.
+4. `qdrant_db.py` stores vectors and metadata in Qdrant.
+5. `keyword_search.py` performs BM25 search.
+6. `dense_search.py` queries Qdrant for semantic matches.
+7. `hybrid_search.py` combines BM25 and dense rankings with RRF.
+8. `evaluate.py` runs all three methods against the labeled queries.
+
+Search functions return structured result dictionaries. `main.py` is
+responsible for displaying those results.
 
 ## What I Learned
 
